@@ -13,8 +13,8 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "dados", "dados", "{7B729AFF-9C27-42AA-9EAE-1CB9C47AAEE6}"
 	ProjectSection(SolutionItems) = preProject
 		_Recursos\dados\livros.json = _Recursos\dados\livros.json
+		_Recursos\dados\modelo.cs = _Recursos\dados\modelo.cs
 		_Recursos\dados\modelo.png = _Recursos\dados\modelo.png
-		_Recursos\dados\modelo.txt = _Recursos\dados\modelo.txt
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "logos", "logos", "{28F86A0D-F893-41A4-ACA9-ABF0D250145A}"
@@ -105,7 +105,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Aulas", "Aulas", "{6474456B
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Aula1", "Aula1", "{BC06BC52-4BE8-44D8-8062-6AC245BFF722}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CasaDoCodigo", "Aulas\Aula1\CasaDoCodigo\CasaDoCodigo.csproj", "{BA4E5172-632A-4D16-B770-0047C675C66A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CasaDoCodigo", "Aulas\Aula1\CasaDoCodigo\CasaDoCodigo.csproj", "{BA4E5172-632A-4D16-B770-0047C675C66A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
