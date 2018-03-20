@@ -78,12 +78,21 @@ namespace CasaDoCodigo.Models
         {
 
         }
+
+        public ItemPedido(Pedido pedido, Produto produto, int quantidade, decimal precoUnitario)
+        {
+            Pedido = pedido;
+            Produto = produto;
+            Quantidade = quantidade;
+            PrecoUnitario = precoUnitario;
+        }
     }
 
     public class Pedido : BaseModel
     {
         public Pedido()
         {
+            Cadastro = new Cadastro();
         }
 
         public Pedido(Cadastro cadastro)
