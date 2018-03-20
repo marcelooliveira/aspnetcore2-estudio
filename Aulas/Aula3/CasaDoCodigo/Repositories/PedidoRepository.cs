@@ -25,7 +25,7 @@ namespace CasaDoCodigo.Repositories
         public Pedido GetPedido()
         {
             var pedidoId = GetPedidoId();
-            var pedido = dbSet;
+            var pedido = dbSet
                 .Where(p => p.Id == pedidoId)
                 .SingleOrDefault();
 
